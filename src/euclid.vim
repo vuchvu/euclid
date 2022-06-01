@@ -905,13 +905,19 @@ function! s:create_xline_context() abort
           \   c.xline_edge_fg,
           \   c.xline_edge_bg,
           \ ])
+    let col_tabsel = string([
+          \   g.xline_tabsel_fg,
+          \   g.xline_tabsel_bg,
+          \   c.xline_tabsel_fg,
+          \   c.xline_tabsel_bg,
+          \ ])
     let prefix = bg . '_col_'
     let context = extend(context, {
           \   prefix . 'base': col_base,
           \   prefix . 'tabfill': col_base,
           \   prefix . 'edge': col_edge,
           \   prefix . 'normal': col_edge,
-          \   prefix . 'tabsel': col_edge,
+          \   prefix . 'tabsel': col_tabsel,
           \   prefix . 'error': string([
           \     g.normal_bg,
           \     g.lred,

@@ -23,7 +23,7 @@ function! s:build_palette() abort
     let col_insert   = ['#005fd7', '#eeeeee', 26, 255]
     let col_replace  = ['#eeeeee', '#d78700', 255, 172]
     let col_visual   = ['#eeeeee', '#8787ff', 255, 105]
-    let col_tabsel   = ['#5fafd7', '#87ffff', 74, 123]
+    let col_tabsel   = ['#5fafd7', '#eeeeee', 74, 255]
   " else
   "   let col_base     = 
   "   let col_edge     = 
