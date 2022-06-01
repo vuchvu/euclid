@@ -1,6 +1,6 @@
 " File:       euclid.vim
 " Maintainer: vuchvu <akisamegane7100@gmail.com>
-" Modified:   2022-06-01 21:11 (W)
+" Modified:   2022-06-02 06:12 (W)
 " License:    MIT
 
 
@@ -90,7 +90,7 @@ if &background == 'light'
   hi ALEWarningSign ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
   hi ALEVirtualTextError ctermfg=172 guifg=#d78700
   hi ALEVirtualTextWarning ctermfg=172 guifg=#d78700
-  hi CtrlPMode1 ctermbg=147 ctermfg=252 guibg=#afafff guifg=#d0d0d0
+  hi CtrlPMode1 ctermbg=147 ctermfg=255 guibg=#afafff guifg=#eeeeee
   hi EasyMotionShade ctermfg=74 guifg=#5fafd7
   hi EasyMotionTarget ctermfg=35 guifg=#00af5f
   hi EasyMotionTarget2First ctermfg=172 guifg=#d78700

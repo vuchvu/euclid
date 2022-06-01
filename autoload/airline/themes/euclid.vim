@@ -7,7 +7,7 @@ function! s:build_palette() abort
     let col_base     = ['#87ffff', '#5fafd7', 123, 74]
     let col_edge     = ['#5fafd7', '#87ffff', 74, 123]
     let col_error    = ['#eeeeee', '#ff5f00', 255, 202]
-    let col_gradient = ['#d0d0d0', '#afafff', 252, 147]
+    let col_gradient = ['#eeeeee', '#afafff', 255, 147]
     let col_nc       = ['#87ffff', '#5fafd7', 123, 74]
     let col_warning  = ['#eeeeee', '#ff5f00', 255, 202]
     let col_insert   = ['#005fd7', '#eeeeee', 26, 255]

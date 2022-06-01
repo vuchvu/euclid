@@ -14,7 +14,7 @@ function! s:build_palette() abort
   " if &background == 'light'
     let col_base     = ['#87ffff', '#5fafd7', 123, 74]
     let col_edge     = ['#5fafd7', '#87ffff', 74, 123]
-    let col_gradient = ['#d0d0d0', '#afafff', 252, 147]
+    let col_gradient = ['#eeeeee', '#afafff', 255, 147]
     let col_nc       = ['#87ffff', '#5fafd7', 123, 74]
     let col_tabfill  = ['#87ffff', '#5fafd7', 123, 74]
     let col_normal   = ['#5fafd7', '#87ffff', 74, 123]

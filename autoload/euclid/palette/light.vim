@@ -93,7 +93,7 @@ function! euclid#palette#light#create() abort
   let g.xline_edge_bg = g.statusline_bg
   let g.xline_edge_fg = g.statusline_fg
   let g.xline_gradient_bg = g.lpurple
-  let g.xline_gradient_fg = g.white
+  let g.xline_gradient_fg = g.lwhite
 
   " plugins
   let g.easymotion_shade_fg = g.cyan
@@ -170,7 +170,7 @@ function! euclid#palette#light#create() abort
   let c.xline_edge_bg = c.statusline_bg
   let c.xline_edge_fg = c.statusline_fg
   let c.xline_gradient_bg = c.lpurple
-  let c.xline_gradient_fg = c.white
+  let c.xline_gradient_fg = c.lwhite
 
   " plugins
   let c.easymotion_shade_fg = c.cyan
