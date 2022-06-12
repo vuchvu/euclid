@@ -150,7 +150,7 @@ function! euclid#palette#light#create() abort
   let c.pmenusel_fg = c.normal_fg
 
   " misc
-  let c.comment_fg = c.lblack
+  let c.comment_fg = c.white
   let c.cursorline_bg = c.linenr_bg
   let c.folded_bg = c.linenr_bg
   let c.folded_fg = c.lwhite

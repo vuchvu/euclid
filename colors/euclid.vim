@@ -1,6 +1,6 @@
 " File:       euclid.vim
 " Maintainer: vuchvu <akisamegane7100@gmail.com>
-" Modified:   2022-06-02 06:22
+" Modified:   2022-06-12 11:23+0900
 " License:    MIT
 
 
