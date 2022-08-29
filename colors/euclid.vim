@@ -1,6 +1,6 @@
 " File:       euclid.vim
 " Maintainer: vuchvu <akisamegane7100@gmail.com>
-" Modified:   2022-06-12 11:23+0900
+" Modified:   2022-08-29 21:56+0900
 " License:    MIT
 
 
@@ -20,8 +20,8 @@ if &background == 'light'
   hi ColorColumn cterm=NONE ctermbg=255 ctermfg=NONE guibg=#eeeeee guifg=NONE
   hi CursorColumn cterm=NONE ctermbg=255 ctermfg=NONE guibg=#eeeeee guifg=NONE
   hi CursorLine cterm=NONE ctermbg=255 ctermfg=NONE guibg=#eeeeee guifg=NONE
-  hi Comment ctermfg=239 guifg=#d0d0d0
-  hi Conceal ctermbg=255 ctermfg=239 guibg=#eeeeee guifg=#d0d0d0
+  hi Comment ctermfg=252 guifg=#d0d0d0
+  hi Conceal ctermbg=255 ctermfg=252 guibg=#eeeeee guifg=#d0d0d0
   hi Constant ctermfg=105 guifg=#8787ff
   hi Cursor ctermbg=172 ctermfg=255 guibg=#d78700 guifg=#eeeeee
   hi CursorLineNr cterm=NONE ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
@@ -75,12 +75,12 @@ if &background == 'light'
   hi TabLine cterm=NONE ctermbg=74 ctermfg=123 gui=NONE guibg=#5fafd7 guifg=#87ffff
   hi TabLineFill cterm=reverse ctermbg=123 ctermfg=74 gui=reverse guibg=#87ffff guifg=#5fafd7
   hi TabLineSel cterm=NONE ctermbg=255 ctermfg=241 gui=NONE guibg=#eeeeee guifg=#626262
-  hi TermCursorNC ctermbg=239 ctermfg=255 guibg=#d0d0d0 guifg=#eeeeee
+  hi TermCursorNC ctermbg=252 ctermfg=255 guibg=#d0d0d0 guifg=#eeeeee
   hi Title ctermfg=172 gui=NONE guifg=#d78700
   hi Todo ctermbg=172 ctermfg=255 guibg=#d78700 guifg=#eeeeee
   hi Type ctermfg=26 gui=NONE guifg=#005fd7
   hi Underlined cterm=underline ctermfg=26 gui=underline guifg=#005fd7 term=underline
-  hi VertSplit cterm=NONE ctermbg=74 ctermfg=74 gui=NONE guibg=#5fafd7 guifg=#5fafd7
+  hi VertSplit cterm=NONE ctermbg=255 ctermfg=74 gui=NONE guibg=#eeeeee guifg=#5fafd7
   hi Visual ctermbg=123 ctermfg=NONE guibg=#87ffff guifg=NONE
   hi VisualNOS ctermbg=123 ctermfg=NONE guibg=#87ffff guifg=NONE
   hi WildMenu ctermbg=252 ctermfg=74 guibg=#eeeeee guifg=#5fafd7
@@ -102,7 +102,7 @@ if &background == 'light'
   hi gitmessengerEndOfBuffer ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
   hi gitmessengerPopupNormal ctermbg=255 ctermfg=241 guibg=#eeeeee guifg=#626262
   hi Sneak ctermbg=105 ctermfg=255 guibg=#8787ff guifg=#eeeeee
-  hi SneakScope ctermbg=123 ctermfg=239 guibg=#87ffff guifg=#d0d0d0
+  hi SneakScope ctermbg=123 ctermfg=252 guibg=#87ffff guifg=#d0d0d0
   hi SyntasticErrorSign ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
   hi SyntasticStyleErrorSign ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
   hi SyntasticStyleWarningSign ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
@@ -116,9 +116,9 @@ if &background == 'light'
   hi DiagnosticUnderlineInfo cterm=underline ctermfg=39 gui=underline guisp=#00afff term=underline
   hi DiagnosticInfo ctermfg=39 guifg=#00afff
   hi DiagnosticSignInfo ctermbg=255 ctermfg=39 guibg=#eeeeee guifg=#00afff
-  hi DiagnosticUnderlineHint cterm=underline ctermfg=239 gui=underline guisp=#d0d0d0 term=underline
-  hi DiagnosticHint ctermfg=239 guifg=#d0d0d0
-  hi DiagnosticSignHint ctermbg=255 ctermfg=239 guibg=#eeeeee guifg=#d0d0d0
+  hi DiagnosticUnderlineHint cterm=underline ctermfg=252 gui=underline guisp=#d0d0d0 term=underline
+  hi DiagnosticHint ctermfg=252 guifg=#d0d0d0
+  hi DiagnosticSignHint ctermbg=255 ctermfg=252 guibg=#eeeeee guifg=#d0d0d0
   hi DiagnosticUnderlineWarn cterm=underline ctermfg=172 gui=underline guisp=#d78700 term=underline
   hi DiagnosticWarn ctermfg=172 guifg=#d78700
   hi DiagnosticSignWarn ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700

@@ -393,10 +393,10 @@ function! s:create_colors(palette) abort
   call extend(rules, pgmnt#hi#group(
         \ 'VertSplit', {
         \   'cterm': 'NONE',
-        \   'ctermbg': c.statuslinenc_bg,
+        \   'ctermbg': c.lwhite,
         \   'ctermfg': c.cyan,
         \   'gui': 'NONE',
-        \   'guibg': g.statuslinenc_bg,
+        \   'guibg': g.lwhite,
         \   'guifg': g.cyan,
         \ }))
   call extend(rules, pgmnt#hi#group(
