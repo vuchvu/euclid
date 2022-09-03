@@ -132,6 +132,16 @@ function! s:create_colors(palette) abort
         \   'guifg': g.blue,
         \ }))
   call extend(rules, pgmnt#hi#group(
+        \ 'helpExample', {
+        \   'ctermfg': c.cyan,
+        \   'guifg': g.cyan,
+        \ }))
+  call extend(rules, pgmnt#hi#group(
+        \ 'helpCommand', {
+        \   'ctermfg': c.cyan,
+        \   'guifg': g.cyan,
+        \ }))
+  call extend(rules, pgmnt#hi#group(
         \ 'Identifier', {
         \   'cterm': 'NONE',
         \   'ctermfg': c.lblue,
@@ -871,7 +881,7 @@ function! s:create_context() abort
   let links = s:create_links()
 
   return {
-        \   'modified': strftime('%Y-%m-%d %H:%M%z'),
+        \   'modified': strftime('%Y-%m-%d %H:%M+0900'),
         \   'light_rules': l.rules,
         \   'light_neovim_term_defs': l.neovim_term_defs,
         \   'light_vim_term_defs': l.vim_term_defs,

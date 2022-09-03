@@ -1,6 +1,6 @@
 " File:       euclid.vim
 " Maintainer: vuchvu <akisamegane7100@gmail.com>
-" Modified:   2022-08-29 21:56+0900
+" Modified:   2022-09-03 09:26(+0900)
 " License:    MIT
 
 
@@ -40,6 +40,8 @@ if &background == 'light'
   hi Folded ctermbg=255 ctermfg=255 guibg=#5fafd7 guifg=#eeeeee
   hi FoldColumn ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
   hi Function ctermfg=26 guifg=#005fd7
+  hi helpExample ctermfg=74 guifg=#5fafd7
+  hi helpCommand ctermfg=74 guifg=#5fafd7
   hi Identifier cterm=NONE ctermfg=39 guifg=#00afff
   hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
   hi Include ctermfg=26 guifg=#005fd7
