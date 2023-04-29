@@ -1,6 +1,6 @@
 " File:       euclid.vim
 " Maintainer: vuchvu <akisamegane7100@gmail.com>
-" Modified:   2022-09-03 09:26(+0900)
+" Modified:   2023-04-30 07:36(+0900)
 " License:    MIT
 
 
@@ -77,6 +77,7 @@ if &background == 'light'
   hi TabLine cterm=NONE ctermbg=74 ctermfg=123 gui=NONE guibg=#5fafd7 guifg=#87ffff
   hi TabLineFill cterm=reverse ctermbg=123 ctermfg=74 gui=reverse guibg=#87ffff guifg=#5fafd7
   hi TabLineSel cterm=NONE ctermbg=255 ctermfg=241 gui=NONE guibg=#eeeeee guifg=#626262
+  hi Terminal ctermbg=241 ctermfg=255 guibg=#626262 guifg=#eeeeee
   hi TermCursorNC ctermbg=252 ctermfg=255 guibg=#d0d0d0 guifg=#eeeeee
   hi Title ctermfg=172 gui=NONE guifg=#d78700
   hi Todo ctermbg=172 ctermfg=255 guibg=#d78700 guifg=#eeeeee
