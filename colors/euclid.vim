@@ -1,6 +1,6 @@
 " File:       euclid.vim
 " Maintainer: vuchvu <akisamegane7100@gmail.com>
-" Modified:   2023-04-30 07:36(+0900)
+" Modified:   2026-04-04 16:27(+0900)
 " License:    MIT
 
 
@@ -45,7 +45,7 @@ if &background == 'light'
   hi Identifier cterm=NONE ctermfg=39 guifg=#00afff
   hi Ignore ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
   hi Include ctermfg=26 guifg=#005fd7
-  hi IncSearch cterm=reverse ctermbg=123 ctermfg=NONE gui=reverse guibg=#87ffff guifg=NONE term=reverse
+  hi IncSearch cterm=NONE ctermbg=NONE ctermfg=123 gui=NONE guibg=NONE guifg=#87ffff
   hi LineNr ctermbg=255 ctermfg=172 guibg=#eeeeee guifg=#d78700
   hi MatchParen ctermbg=239 ctermfg=252 guibg=#4e4e4e guifg=#d0d0d0
   hi ModeMsg ctermfg=74 guifg=#5fafd7
@@ -67,15 +67,15 @@ if &background == 'light'
   hi SpellLocal ctermbg=39 ctermfg=241 gui=undercurl guifg=NONE guisp=#00afff
   hi SpellRare ctermbg=105 ctermfg=241 gui=undercurl guifg=NONE guisp=#8787ff
   hi Statement ctermfg=26 gui=NONE guifg=#005fd7
-  hi StatusLine cterm=reverse ctermbg=74 ctermfg=123 gui=reverse guibg=#5fafd7 guifg=#87ffff term=reverse
-  hi StatusLineTerm cterm=reverse ctermbg=74 ctermfg=123 gui=reverse guibg=#5fafd7 guifg=#87ffff term=reverse
-  hi StatusLineNC cterm=reverse ctermbg=123 ctermfg=74 gui=reverse guibg=#87ffff guifg=#5fafd7
-  hi StatusLineTermNC cterm=reverse ctermbg=123 ctermfg=74 gui=reverse guibg=#87ffff guifg=#5fafd7
+  hi StatusLine cterm=NONE ctermbg=123 ctermfg=74 gui=NONE guibg=#87ffff guifg=#5fafd7
+  hi StatusLineTerm cterm=NONE ctermbg=123 ctermfg=74 gui=NONE guibg=#87ffff guifg=#5fafd7
+  hi StatusLineNC cterm=NONE ctermbg=74 ctermfg=123 gui=NONE guibg=#5fafd7 guifg=#87ffff
+  hi StatusLineTermNC cterm=NONE ctermbg=74 ctermfg=123 gui=NONE guibg=#5fafd7 guifg=#87ffff
   hi StorageClass ctermfg=26 guifg=#005fd7
   hi String ctermfg=39 guifg=#00afff
   hi Structure ctermfg=26 guifg=#005fd7
   hi TabLine cterm=NONE ctermbg=74 ctermfg=123 gui=NONE guibg=#5fafd7 guifg=#87ffff
-  hi TabLineFill cterm=reverse ctermbg=123 ctermfg=74 gui=reverse guibg=#87ffff guifg=#5fafd7
+  hi TabLineFill cterm=NONE ctermbg=74 ctermfg=123 gui=NONE guibg=#5fafd7 guifg=#87ffff
   hi TabLineSel cterm=NONE ctermbg=255 ctermfg=241 gui=NONE guibg=#eeeeee guifg=#626262
   hi Terminal ctermbg=241 ctermfg=255 guibg=#626262 guifg=#eeeeee
   hi TermCursorNC ctermbg=252 ctermfg=255 guibg=#d0d0d0 guifg=#eeeeee

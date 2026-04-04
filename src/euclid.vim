@@ -161,13 +161,12 @@ function! s:create_colors(palette) abort
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ 'IncSearch', {
-        \   'cterm': 'reverse',
-        \   'ctermbg': c.search_bg,
-        \   'ctermfg': 'NONE',
-        \   'gui': 'reverse',
-        \   'guibg': g.search_bg,
-        \   'guifg': 'NONE',
-        \   'term': 'reverse',
+        \   'cterm': 'NONE',
+        \   'ctermbg': 'NONE',
+        \   'ctermfg': c.search_bg,
+        \   'gui': 'NONE',
+        \   'guibg': 'NONE',
+        \   'guifg': g.search_bg,
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ 'LineNr', {
@@ -307,22 +306,21 @@ function! s:create_colors(palette) abort
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ ['StatusLine', 'StatusLineTerm'], {
-        \   'cterm': 'reverse',
-        \   'ctermbg': c.statusline_fg,
-        \   'ctermfg': c.statusline_bg,
-        \   'gui': 'reverse',
-        \   'guibg': g.statusline_fg,
-        \   'guifg': g.statusline_bg,
-        \   'term': 'reverse',
+        \   'cterm': 'NONE',
+        \   'ctermbg': c.statusline_bg,
+        \   'ctermfg': c.statusline_fg,
+        \   'gui': 'NONE',
+        \   'guibg': g.statusline_bg,
+        \   'guifg': g.statusline_fg,
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ ['StatusLineNC', 'StatusLineTermNC'], {
-        \   'cterm': 'reverse',
-        \   'ctermbg': c.statuslinenc_fg,
-        \   'ctermfg': c.statuslinenc_bg,
-        \   'gui': 'reverse',
-        \   'guibg': g.statuslinenc_fg,
-        \   'guifg': g.statuslinenc_bg,
+        \   'cterm': 'NONE',
+        \   'ctermbg': c.statuslinenc_bg,
+        \   'ctermfg': c.statuslinenc_fg,
+        \   'gui': 'NONE',
+        \   'guibg': g.statuslinenc_bg,
+        \   'guifg': g.statuslinenc_fg,
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ 'StorageClass', {
@@ -350,12 +348,12 @@ function! s:create_colors(palette) abort
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ 'TabLineFill', {
-        \   'cterm': 'reverse',
-        \   'ctermbg': c.statuslinenc_fg,
-        \   'ctermfg': c.statuslinenc_bg,
-        \   'gui': 'reverse',
-        \   'guibg': g.statuslinenc_fg,
-        \   'guifg': g.statuslinenc_bg,
+        \   'cterm': 'NONE',
+        \   'ctermbg': c.statuslinenc_bg,
+        \   'ctermfg': c.statuslinenc_fg,
+        \   'gui': 'NONE',
+        \   'guibg': g.statuslinenc_bg,
+        \   'guifg': g.statuslinenc_fg,
         \ }))
   call extend(rules, pgmnt#hi#group(
         \ 'TabLineSel', {

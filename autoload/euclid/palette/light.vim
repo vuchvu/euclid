@@ -90,10 +90,10 @@ function! euclid#palette#light#create() abort
   " airline/lightline
   let g.xline_base_bg = g.statuslinenc_bg
   let g.xline_base_fg = g.statuslinenc_fg
-  let g.xline_edge_bg = g.statusline_bg
-  let g.xline_edge_fg = g.statusline_fg
-  let g.xline_gradient_bg = g.lpurple
-  let g.xline_gradient_fg = g.lwhite
+  let g.xline_edge_fg = g.statusline_bg
+  let g.xline_edge_bg = g.statusline_fg
+  let g.xline_gradient_fg = g.lpurple
+  let g.xline_gradient_bg = g.lwhite
   let g.xline_tabsel_bg = g.lwhite
   let g.xline_tabsel_fg = g.statusline_fg
 
@@ -169,10 +169,10 @@ function! euclid#palette#light#create() abort
   " airline/lightline
   let c.xline_base_bg = c.statuslinenc_bg
   let c.xline_base_fg = c.statuslinenc_fg
-  let c.xline_edge_bg = c.statusline_bg
-  let c.xline_edge_fg = c.statusline_fg
-  let c.xline_gradient_bg = c.lpurple
-  let c.xline_gradient_fg = c.lwhite
+  let c.xline_edge_fg = c.statusline_bg
+  let c.xline_edge_bg = c.statusline_fg
+  let c.xline_gradient_fg = c.lpurple
+  let c.xline_gradient_bg = c.lwhite
   let c.xline_tabsel_bg = c.lwhite
   let c.xline_tabsel_fg = c.statusline_fg
 
